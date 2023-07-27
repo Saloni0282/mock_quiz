@@ -19,7 +19,7 @@ app.use("/user",UserRouter);
 app.use("/quiz",QuizRouter);
 
 
-app.listen(8000, async () => {
+app.listen(8080, async () => {
     console.log(`Server runs at ${process.env.PORT}`);
     try {
       await connection
